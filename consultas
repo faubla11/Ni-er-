@@ -1,0 +1,71 @@
+--Consulta 1
+
+--En el año 2021 el niñero Robert  referencio a 10 niñeros. 
+--En el año 2021 la niñera Lois referencio a 5 niñeros .
+
+select id_referencia, nombre_referido, nombre_referencia, fecha_referencia
+from referencias
+where extract (year from fecha_referencia)='2021'
+and nombre_referencia='Robert'
+
+select id_referencias, nombre_referido, nombre_referente, fecha_referencia
+from referencias
+where extract(year from fecha_referencia)='2021'
+and nombre_referente='Lois'
+
+
+--Consulta 2
+
+--En el año 2021 Robert realizo 10 solicitudes de las cuales anulo 8. 
+--En al año 2020 hizo 10 solicitudes de las cuales anulo 3 
+
+select fecha_ingreso, estado_solicitud, nombre_cliente
+from cliente
+inner join solicitud
+on solicitud.fecha_ingreso= solicitud.fecha_ingreso
+where extract(year from fecha_ingreso)='2021' and nombre_cliente'Robert'
+
+select fecha_ingreso, estado_solicitud, nombre_cliente
+from cliente
+inner join solicitud
+on solicitud.fecha_ingresos= solicitud.fecha_ingreso
+where extract(year from fecha_ingreso)= '2020' and nombre_cliente='Robert'
+
+
+--Consulta 3
+
+--En el año 2021 Robert tuvo 5 calificaciones positivas y 5 negativas. 
+--En el año 2020 tuvo 6 positivas y 4 negativas
+
+select fecha_ingreso, calificacion_solicitud, nombre_cliente
+from cliente
+inner join solicitud
+on solicitud.fecha_ingreso= solicitud.fecha_ingreso
+where extract(year from fecha_ingreso)='2021' and nombre_cliente'Robert'
+
+
+select fecha_ingreso, estado_solicitud, nombre_cliente
+from cliente
+inner join solicitud
+on solicitud.fecha_ingreso= solicitud.fecha_ingreso
+where extract(year from fecha_ingreso)='2020' and nombre_cliente'Robert'
+
+
+--Consulta 4
+
+--En el año 2021 por el niñero Robert se obtuvieron 20mil dólares.
+--En el año 2020 por el niñero Robert se obtuvieron 40mil dólares.
+
+select sum (ganancias as sumaganancias from ingresos, registro
+where extract (year from fecha_ingresos)='2021'
+and nombre_niñera='Robert'
+
+select sum (ganancias as sumaganancias from ingresos, registro
+where extract (year from fecha_ingresos)='2020'
+and nombre_niñera='Robert'
+
+
+
+
+
+
