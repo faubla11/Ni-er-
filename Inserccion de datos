@@ -1,0 +1,256 @@
+--INSERCCION DE DATOS
+
+_______________________________________________________________________________
+insert into ocupacion (id_ocupacion, pasatiempos) values
+(01,'correr'), (02,'musica'), (03,'cine'), (04,'piano'), (05,'cantar'), (06,'futbol'), (07,'futbol'), (08,'cantar'), (09,'bailar'), (10,'bailar'), 
+(11,'playa'), (12,'nadar'), (13,'voley'), (14,'comprar'), (15,'manualidades'), (16,'viajar'), (17,'television'), (18,'cocinar'), (19,'cocinar'), (20,'nadar')
+
+__________________________________________________________________________________________
+insert into registro (id_registro, nombre_niñera, apellido_niñera, cedula_niñera, genero_niñera, fechanacimiento_niñera, edad_niñera, telefono_niñera) values
+(1, 'Maria', 'Moca', '1234567890', 'mujer', '2000-03-04', '22','0934117188'), 
+(2, 'Mario', 'Bros', '1232424890', 'hombre', '2000-01-04', '22','0932267188'), 
+(3, 'Norberto', 'Antena', '1236665890', 'hombre', '1999-03-05', '23','0955267188'), 
+(4, 'Robert', 'Moreira', '1654367890', 'hombre', '2001-03-04', '21','0937867188'), 
+(5, 'Bryan', 'Macias', '1298767890', 'hombre', '2000-08-07', '22','0934997188'), 
+(6, 'Josue', 'Mora', '1234876590', 'hombre', '2000-03-09', '22','0934260088'), 
+(7, 'Jose', 'Faubla', '1234234690', 'hombre', '2002-02-02', '22','0934267788'), 
+(8, 'Eddie', 'Moca', '1234985690', 'hombre', '2000-03-05', '22','0934264588'), 
+(9, 'Peter', 'Parker', '1234276590', 'hombre', '2000-05-04', '22','0934260988'), 
+(10, 'Elsa', 'Brock', '1234128790', 'mujer', '2000-03-04', '22','0934267133'), 
+(11, 'Ben', 'Moca', '1234548760', 'hombre', '1999-03-04', '23','0934244188'), 
+(12, 'Marie', 'Mar', '1234598650', 'mujer', '1998-03-06', '24','0934261188'), 
+(13, 'Otto', 'Octavius', '1213647890', 'hombre', '2000-03-04', '22','0946267188'), 
+(14, 'Maria', 'Parker', '1239998890', 'mujer', '2000-03-04', '22','0934347188'), 
+(15, 'Miles', 'Morales', '1287767890', 'hombre', '2000-03-04', '22','0934777188'), 
+(16, 'Antonio', 'Montes', '1443267890', 'mujer', '1999-02-04', '23','0977267188'), 
+(17, 'Minerva', 'Gol', '1234569854', 'mujer', '1999-01-04', '23','0933367188'), 
+(18, 'Ronalda', 'Gol', '1234365490', 'mujer', '1998-04-04', '24','0934222188'), 
+(19, 'Leti', 'Mira', '1234562121', 'mujer', '2000-12-12', '22','0934567111'), 
+(20, 'Elektra', 'Natchios', '1230087890', 'mujer', '2000-11-11', '22','0978267328')
+
+_____________________________________________________________________________________
+
+insert into cliente (idcliente, nombre_cliente, apellido_cliente, genero_cliente, correo_cliente, telefono1_cliente, telefono2_cliente, telefono3_cliente) values
+(1, 'Maria', 'Moa', 'mujer', 'maria@gmail.com', '2984625472','0934117188','0224117188'), 
+(2, 'Nario', 'Cros', 'hombre', 'nario@gmail.com', '2174635862','0932267188','0912317188'), 
+(3, 'Norberta', 'Ann', 'mujer', 'norberta@gmail.com', '2309876545','0955267188', '2309876545'), 
+(4, 'Robert', 'Moreira', 'hombre', 'robert@gmail.com', '2765884651','0937867188', '2765884651'), 
+(5, 'Bryan', 'Macias', 'hombre', 'bryan@gmail.com', '8756354622','0934997188','8756354622'), 
+(6, 'Nosue', 'Mota', 'hombre', 'nosue@gmail.com', '8756354922','0934260088','8756354922'), 
+(7, 'Cose', 'Naubla', 'hombre', 'cose@gmail.com', '2058364532','0934267788', '2058364532'), 
+(8, 'Eddie', 'Mola', 'hombre', 'eddie@gmail.com', '2947563542','0934264588', '2947563542'), 
+(9, 'Peter', 'Parker', 'hombre', 'peter@gmail.com', '1294756285','0934260988', '1294756285'), 
+(10, 'Elma', 'Brock', 'mujer', 'elma@gmail.com', '2958673642','0934267133','2958673642'), 
+(11, 'Beni', 'Moca', 'hombre', 'beni@gmail.com', '2958562543','0934244188', '2958562543'), 
+(12, 'Mariel', 'Mar', 'mujer', 'mariel@gmail.com', '2485736453','0934261188', '2485736453'), 
+(13, 'Otta', 'Octavius', 'hombre', 'otta@gmail.com', '2946284512','0946267188', '2946284512'), 
+(14, 'Marina', 'Parker', 'mujer', 'marina@gmail.com', '2113456782','0934347188', '2113456782'), 
+(15, 'Miles', 'Mortero', 'hombre', 'miles@gmail.com', '2937565142','0934777188', '2937565142'), 
+(16, 'Anthony', 'Montes', 'mujer', 'anthony@gmail.com', '2103856783','0977267188', '2103856783'), 
+(17, 'Mina', 'Gol', 'mujer', 'mina@gmail.com', '2947586743','0933367188', '2947586743'), 
+(18, 'Rona', 'Gol', 'mujer', 'rona@gmail.com', '2836574654','0934222188', '2836574654'), 
+(19, 'Leta', 'Mira', 'mujer', 'leta@gmail.com', '2284756782','0934567111', '2284756782'), 
+(20, 'Lektra', 'Natchios', 'mujer', 'lektra@gmail.com', '2947685642','0978267328', '2947685642')
+__________________________________________________________________________________________
+
+insert into domicilio (id_domicilio, cliente_idcliente, direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values
+
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (1,1, '7 Steensland Alley', '21', 'Boden', '9376645377');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (2,2, '4 Golf Course Street', '99', 'Oslo', '9747885161');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (3,3, '4 Blue Bill Park Point', '52', 'Skhodnya', '9297932434');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (4,4, '3708 Vermont Way', '60', 'Pangai', '9447459572');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (5,5, '9807 Packers Pass', '38', 'Xiaozhi', '9373596346');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (6,6, '7075 Corscot Way', '42', 'Padre Paraíso', '9862551227');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (7,7, '76740 Russell Avenue', '85', 'Mache', '9413001965');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (8,8, '759 Huxley Court', '37', 'Orange', '9363873360');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (9,9, '11 Eliot Center', '67', 'Gunungkoneng', '9272339597');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (10,10, '2 Magdeline Avenue', '28', 'Lengkongjaya', '9188645313');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (11,11, '60701 Forest Dale Trail', '100', 'Montréal-Ouest', '9314191143');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (12,12, '4246 Weeping Birch Crossing', '15', 'Palmasola', '9507562425');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (13,13, '81 Morningstar Plaza', '57', 'Madīnat ash Shamāl', '9478825387');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (14,14, '697 Darwin Junction', '92', 'Gusong', '9153859959');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (15,15, '74535 Sycamore Lane', '79', 'Ralevka', '9958973436');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (16,16, '3 Miller Alley', '40', 'Kerċem', '9739238205');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (17,17, '8 Golf Hill', '99', 'Khon Kaen', '9391933246');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (18,18, '9634 Rigney Junction', 47, 'Sinilian ', '9684951371');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (19,19, '0459 Jenna Junction', 54, 'Koźle', '9490826964');
+insert into domicilio (id_domicilio,cliente_idcliente,  direccion_domicilio, manzana_domicilio, ciudad_domicilio, telefono_domicilio) values (20,20, '773 Leroy ', 73, 'Desa Borogojol', '9897415276');
+__________________________________________________________________________________________________________
+
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (1, 1, '2020-12-12', 'anulada', 'niñero con horario negociable', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (2, 2, '2021-09-09', 'anulada', '', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (3, 3, '2021-08-08', 'anulada', 'estudia', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (4, 4, '2021-07-07', 'anulada', 'niñero con horario negociable', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (5, 5, '2021-06-06', 'anulada', '', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (6, 6, '2021-05-05', 'anulada', '', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (7, 7, '2021-06-05', 'anulada', 'niñero con horario negociable ', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (8, 8, '2021-08-09', 'aceptada', 'niñero con horario negociable ', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (9, 9, '2021-04-04', 'aceptada', 'niñero con horario negociable', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (10, 10, '2021-04-04', 'aceptada', 'buena', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (11, 11, '2020-03-03', 'aceptada', 'niñero con horario negociable', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (12, 12, '2021-02-02', 'aceptada', '', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (13, 13, '2021-01-01', 'aceptada', '', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (14, 14, '2021-01-12', 'anulada', 'niñero con horario negociable', 'negativa');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (15, 15, '2021-01-23', 'aceptada', 'niñero con horario negociable', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (16, 16, '2020-01-17', 'aceptada', 'niñero con horario negociable', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (17, 17, '2021-02-15', 'anulada', 'niñero con horario negociable', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (18, 18, '2021-03-17', 'anulada', '', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (19, 19, '2021-04-18', 'anulada', '', 'positiva');
+insert into solicitud (id_solicitud, cliente_idcliente, fecha_ingreso, estado_solicitud, observacion_solicitud, calificacion_solicitud) values (20, 20, '2021-05-19', 'anulada', '', 'positiva');
+____________________________________________________________________________________________________________________
+
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (1, 1, 'fisica', 'pelota', 'postres');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (2, 2, 'fisica', 'gallinita', 'postres');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (3, 3, 'fisica', 'play', 'oriental');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (4, 4, 'fisica', 'atrapadas', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (5, 5, 'manuales', 'puzzle', 'bocaditos');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (6, 6, 'manualidades', 'pelota', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (7, 7, 'con colores', 'pelota', 'bocaditos');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (8, 8, 'didacticas', 'pelota', 'bocaditos');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (9, 9, 'fisica', 'gallinita', 'bocaditos');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (10, 10, 'fisica', 'gallinita', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (11, 11, 'fisica', 'pelota', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (12, 12, 'fisica', 'play', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (13, 13, 'fisica', 'play', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (14, 14, 'con colores', 'play', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (15, 15, 'con colores', 'puzzle', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (16, 16, 'didacticas', 'puzzle', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (17, 17, 'didacticas', 'puzzle', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (18, 18, 'manualidades', 'puzzle', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (19, 19, 'manualidades', 'puzzle', 'frutas');
+insert into extras (id_extras, solicitud_id_solicitud, terapia_extras, juego_extra, comida_extras) values (20, 20, 'manuales', 'pelota', 'frutas');
+_______________________________________________________________________________________________________________________
+
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (1, 1, 50, 50, 50);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (2, 2, 55, 55, 55);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (3, 3, 60, 60, 60);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (4, 4, 70, 70, 70);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (5, 5, 80, 80, 70);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (6, 6, 75, 75, 75);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (7, 7, 50, 50, 50);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (8, 8, 50, 50, 50);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (9, 9, 50, 50, 50);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (10, 10, 50, 50, 50);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (11, 11, 50, 50, 50);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (12, 12, 90, 90, 90);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (13, 13, 90, 90, 90);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (14, 14, 90, 90, 90);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (15, 15, 90, 90, 90);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (16, 16, 100, 100, 100);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (17, 17, 100, 100, 100);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (18, 18, 100, 100, 100);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (19, 19, 25, 25, 25);
+insert into pago (id_pago, solicitud_id_solicitud, efectivo_pago, contado_pago, transferencia_pago) values (20, 20, 20, 20, 20);
+
+______________________________________________________________________________________________________________________________________
+
+
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (1, 1, 'Emelita', 'Skoughman', '8107877721', 21, 'Robert', '2021-06-23');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (2, 2, 'Reece', 'Harwood', '8582593511', 22, 'Robert', '2021-04-15');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (3, 3, 'Sanson', 'Everil', '0698747623', 23, 'Robert', '2021-05-17');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (4, 4, 'Lydia', 'Maciunas', '3846316938', 24, 'Robert', '2021-06-21');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (5, 5, 'Elliott', 'Gilsthorpe', '0193247747', 25, 'Robert', '2021-03-01');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (6, 6, 'Ursuline', 'Shiril', '8489044864', 22, 'Robert', '2021-04-29');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (7, 7, 'Carr', 'Beecham', '4509783191', 23, 'Robert', '2021-06-12');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (8, 8, 'Hollis', 'Laundon', '3145874101', 24, 'Elektra', '2021-06-23');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (9, 9, 'Farrell', 'McMychem', '2120761043', 27, 'Robert', '2021-11-22');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (10, 10, 'Garret', 'Vickarman', '9474541213', 28, 'Elektra', '2021-06-14');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (11, 11, 'Cedric', 'Phythean', '6895463321', 29, 'Robert', '2021-06-07');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (12, 12, 'Guenna', 'Fierman', '4451938163', 20, 'Robert', '2021-07-15');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (13, 13, 'Zachary', 'Lethabridge', '7880884424', 20, 'Elektra', '2021-05-18');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (14, 14, 'Row', 'Maffezzoli', '2078453668', 19, 'Elektra', '2021-10-09');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (15, 15, 'Alair', 'Gasker', '9820915481', 19, 'Robert', '2021-03-22');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (16, 16, 'Betti', 'Pattrick', '5534786329', 19, 'Elektra', '2021-07-26');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (17, 17, 'Ainsley', 'Brearton', '6348133524', 19, 'Robert', '2021-11-14');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (18, 18, 'Gloriane', 'Thams', '0978493478', 19, 'Robert', '2021-10-16');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (19, 19, 'Whitby', 'Normanton', '0424871750', 19, 'Robert', '2021-07-19');
+insert into referencias (id_referencias, registro_id_registro, nombre_referido, apellido_referido, cedula_referido, edad_referido, nombre_referente, fecha_referencia) values (20, 20, 'Cissy', 'Savage', '5809330118', 19, 'Robert', '2021-08-10');
+______________________________________________________________________________________________________________________________________________
+
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (1, 1, 1, 'Garrick', 'Warrener', '5177595978', '2013-01-25', 10);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (2, 2, 2, 'Hertha', 'Futcher', '9270412571', '2012-06-13', 11);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (3, 3, 3, 'Giulio', 'Worsam', '9535976869', '2021-12-07', 1);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (4, 4, 4, 'Reinaldos', 'Normandale', '5884585128', '2018-03-13', 5);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (5, 5, 5, 'Loy', 'Gleasane', '9170695504', '2018-04-27', 5);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (6, 6, 6, 'Connie', 'Cornels', '2090948043', '2016-07-21', 7);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (7, 7, 7, 'Allyson', 'Shallcrass', '9440978643', '2018-05-05', 5);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (8, 8, 8, 'Eleonora', 'Tampling', '1719489815', '2015-07-31', 8);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (9, 9, 9, 'Fairleigh', 'Trenouth', '3707403971', '2015-03-31', 8);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (10, 10, 10, 'Broddie', 'Dobrowlski', '5648774974', '2018-01-07', 5);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (11, 11, 11, 'Xaviera', 'Dunsmore', '8682717387', '2019-04-02', 4);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (12, 12, 12, 'Gherardo', 'Pettendrich', '6816911016', '2017-01-22', 6);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (13, 13, 13, 'Cathy', 'Brimman', '2037111320', '2021-09-30', 1);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (14, 14, 14, 'Beatriz', 'Dandie', '5481632632', '2021-05-31', 1);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (15, 15, 15, 'Trumaine', 'Van Hesteren', '0032982690', '2018-09-13', 5);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (16, 16, 16, 'Betsy', 'Tame', '8626336209', '2017-04-12', 1);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (17, 17, 17, 'Jaye', 'Hazeldine', '1400633095', '2012-10-25', 11);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (18, 18, 18, 'Clarita', 'Euston', '6664328712', '2017-03-28', 6);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (19, 19, 19, 'Danie', 'Colliber', '2516722931', '2021-12-09', 1);
+insert into niños (id_niño, registro_id_registro, cliente_idcliente, nombre_niño, apellido_niño, cedula_niño, fechanacimiento_niño, edad_niño) values (20, 20, 20, 'Earvin', 'Baumer', '7748517096', '2013-06-16', 10);
+____________________________________________________________________________________________________________________________
+
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (1, 1, 'Trastorno del desarrollo intelectual', 'Dermatitis', 'Evitar temperaturas extremas');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (2, 2, 'Retraso global de desarrollo', 'Urticaria', 'Evita usar ropa áspera');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (3, 3, 'Síndrome de Down', 'Dermatitis', 'Evitar temperaturas extremas');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (4, 4, '', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (5, 5, 'trastorno del desarrollo intelectual', 'dermatitis', 'Evitar temperaturas extremas');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (6, 6, '', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (7, 7, '', 'Urticaria', 'Evita usar ropa áspera');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (8, 8, 'trastorno del desarrollo intelectual', 'Urticaria', 'Evita usar ropa áspera');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (9, 9, '', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (10, 10, '', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (11, 11, 'Síndrome de X frágil', 'dermatitis', 'Evitar temperaturas extremas');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (12, 12, '', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (13, 13, '', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (14, 14, '', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (15, 15, 'Síndrome de Angelman.', 'dermatitis', 'Evitar temperaturas extremas');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (16, 16, '', 'dermatitis', 'Evitar temperaturas extremas');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (17, 17, '', 'dermatitis', 'Evitar temperaturas extremas');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (18, 18, '', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (19, 19, 'Síndrome de Prader-Willi.', '', '');
+insert into caracteristicas_niño (id_caracteristica, niños_id_niño, discapacidad_niño, alergias_niño, medidas_niño) values (20, 20, '', '', '');
+
+__________________________________________________________________________________________________________________________________
+
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (1, 1);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (2, 2);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (3, 3);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (4, 4);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (5, 5);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (6, 6);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (7, 7);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (8, 8);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (9, 9);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (10, 10);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (11, 11);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (12, 12);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (13, 13);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (14, 14);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (15, 15);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (16, 16);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (17, 17);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (18, 18);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (19, 19);
+insert into registro_ocupacion (ocupacion_id_ocupacion, registro_id_registro) values (20, 20);
+______________________________________________________________________________________________________________________
+
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (1, 1, 5000, '2021-09-13');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (2, 2, 5000, '2021-06-27');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (3, 3, 5000, '2021-06-27');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (4, 4, 5000, '2021-07-24');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (5, 5, 10000, '2020-03-04');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (6, 6, 10000, '2020-10-04');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (7, 7, 10000, '2020-06-22');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (8, 8, 5000, '2020-06-05');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (9, 9, 5000, '2020-12-10');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (10, 10, 5000, '2020-09-03');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (11, 11, 5000, '2020-12-03');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (12, 12, 10000, '2019-12-07');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (13, 13, 5000, '2019-04-13');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (14, 14, 25000, '2018-10-17');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (15, 15, 4300, '2018-12-29');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (16, 16, 3500, '2016-02-22');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (17, 17, 4000, '2017-10-14');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (18, 18, 5000, '2017-10-02');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (19, 19, 40000, '2016-03-05');
+insert into ingresos (id_ingresos, registro_id_registro, ganancias, fecha_ingresos) values (20, 20, 30000, '2019-06-25');
